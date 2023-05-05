@@ -1,0 +1,23 @@
+h1 {
+    padding: 20px;
+}
+
+#main{
+    border-radius: 20px;
+    background-color: lightgray;
+    border-color: grey;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
