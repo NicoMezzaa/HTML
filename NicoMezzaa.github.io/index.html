@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ivrea</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/ivrea-logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <button id="hamburger-menu" class="navbar-toggler hamburger-menu" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>    
+    <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" onclick="updateContent(1)">Storia di Ivrea</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="window.location.href='olivetti.html'">Olivetti</a>
+        </li>                      
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="updateContent(2)">Festività</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="updateContent(3)">Tradizioni e cultura</a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand d-flex justify-content-end" href="https://www.comune.ivrea.to.it/" target="_blank">
+      La città di Ivrea <span class="custom-icon"></span>
+    </a>
+  </nav>  
+
+  <div id="content" class="container mt-4">
+    <h2 id="page-title" class="fade-in">LA STORIA DI IVREA</h2>
+
+    <div class="sezione">
+      <img src="img/ivrea-medioevo.png" id="img-1" alt="" class="fade-in img-right">
+      <p id="page-description" class="fade-in">
+        La città di Ivrea ha una storia che affonda le radici nell'epoca romana, quando svolgeva un ruolo cruciale come
+        stazione lungo una strada che collegava Milano a Torino.
+        Nel corso dei secoli, Ivrea ha assunto un'importanza sempre maggiore diventando un centro politico, culturale ed
+        economico di rilievo.
+        Durante il periodo medievale, Ivrea si elevò a capitale di un potente Marchesato, acquisendo una posizione di
+        grande prestigio politico. La città fu governata da diverse famiglie nobiliari, tra cui i Savoia, i Visconti e i
+        Valperga.
+        In quel periodo furono edificati importanti monumenti storici che ancora oggi testimoniano la sua grandezza
+        passata, come il maestoso Castello di Ivrea e la splendida Cattedrale di Santa Maria Assunta.
+      </p>
+      <hr style="font-size: 28px; border: none; height: 4px; background-color: #e5cb04e0; margin: 30px 0;">
+    </div>
+
+    <div class="sezione">
+      <img src="img/ivrea-mura.png" id="img-2" alt="" class="fade-in img-left">
+      <p id="paragraph-1" class="fade-in">
+        La città divenne un centro di scambi commerciali e di attività artigianali, contribuendo così alla sua crescita
+        economica.
+        Durante questo periodo, furono costruite imponenti mura difensive per proteggere la città, e le sue strade si
+        popolarono di mercanti, artigiani e nobili.
+        La presenza di un'importante nobiltà locale, come i Savoia e i Valperga, contribuì anche alla crescita economica
+        di Ivrea. La nobiltà non solo si occupava di affari e commercio,
+        ma sostenne anche lo sviluppo di attività commerciali e artigianali nella città.
+      </p>
+      <hr style="font-size: 28px; border: none; height: 4px; background-color: #e5cb04e0; margin: 30px 0;">
+    </div>
+
+    <div class="sezione">
+      <img src="img/ivrea-posizione.png" id="img-3" alt="" class="fade-in img-right">
+      <p id="paragraph-2" class="fade-in">
+        Negli anni successivi, Ivrea continuò a essere un importante centro culturale.
+        La città ospitava scuole, istituzioni religiose e artisti di talento. Furono promossi studi umanistici e
+        scientifici, e si diffusero opere d'arte e architettoniche di grande pregio.
+        Ivrea fu un luogo di incontro per scienziati, filosofi e letterati, che contribuirono alla diffusione delle idee
+        rinascimentali.
+        La sua posizione strategica, tra Milano e Torino, la rese anche un punto di passaggio per le carovane
+        commerciali che viaggiavano lungo la strada principale.
+      </p>
+      <hr style="font-size: 28px; border: none; height: 4px; background-color: #e5cb04e0; margin: 30px 0;">
+    </div>
+
+    <div class="sezione">
+      <img src="img/ivrea-napoleone.png" id="img-4" alt="" class="fade-in img-left">
+      <p id="paragraph-3" class="fade-in">
+        Durante il periodo napoleonico, Napoleone Bonaparte invase Ivrea nel 1800 e la integrò nel Dipartimento della
+        Doire dell'Impero francese.
+        Furono attuate riforme politiche e amministrative, con l'introduzione di nuove leggi e opere pubbliche.
+        Ivrea divenne un importante centro militare e subì l'influenza della presenza francese. Tuttavia,
+        l'occupazione francese fu di breve durata e la città tornò sotto il controllo del Regno di Sardegna nel 1814.
+      </p>
+    </div>
+  </div>
+
+  <div class="container-footer">
+    <footer class="bg-dark text-center text-white w-100">
+      <div class="container p-4 pb-0">
+        <section class="mb-4">
+          <a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/nicomezzaa" target="_blank" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/NicoMezzaa" target="_blank"role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+      </div>
+    
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); font-size: 20px; font-weight: bold;">
+        Nicolò Mezzanzanica &copy; 2023
+      </div> 
+    </footer>
+  </div>
+</body>
+</html>
